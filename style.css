@@ -47,14 +47,9 @@ table {
 	border-spacing: 0;
 }
 
-/*img {
-  height: 120px;
-  width: 120px;
-  margin: 40px 0px 50px 80px;
-  display: block;
-}*/
 h1 {
-  font-weight: lighter;
+  font-weight: bold;
+	font-size: 50px;
 }
 h2 {
 	margin-left: 30px;
@@ -74,36 +69,22 @@ h1, h2, h3, p {
 	margin-right: 20px;
 	vertical-align:  middle;
 	width: 120px;
+	margin: 40px 40px 0px 40px;
 }
 .header h1 {
 	display: inline;
-  font-size: 25px;
-}
-.block1 {
-  margin-top: 40px;
-	padding-right: 20px;
-  float: left;
-  max-width: 100%;
-  font-size: 100%;
 }
 .block2 {
- 	position: static;
   padding: 80px 20px 0px 20px;
-  font-size: 100%
-}
-.block3 {
-	margin-left: 230px;
-	position: fixed;
 }
 .block4 {
-	position: fixed;
 	margin-left: 260px;
 	margin-top: 30px;
 	line-height: 40px;
 }
 .navigation {
 	font-weight: bold;
-  margin: 0 30px 30px 170px;
+  margin: 0 30px 30px 200px;
 }
 .navigation a {
 	border-right: 2px solid black;
@@ -120,22 +101,28 @@ h1, h2, h3, p {
 }
 .content-container img {
 	float: left;
-	margin-right: 20px;
+	margin: 40px;
 	width: 120px;
 }
-.content {
-	margin-left: 140px;
+.content p {
+	margin: 0px 40px 0px 40px;
 }
-.events {
-  margin: 30px 30px 0px 0;
+.content {
+	margin-left: 250px;
+}
+.content h2 {
+	margin-left: 0px;
+}
+.first-child {
+	padding-top: 30px;
 }
 .explain {
-  padding: 5px 20px 0px 25px;
+  padding: 5px 0px 25px 40px;
 }
 .explain2 {
 	line-height: 20px;
 	word-spacing: 5px;
-	padding: 0px 240px 40px 60px;
+	padding: 0px 40px 40px 0px;
 }
 .date {
 	font-style: italic;
