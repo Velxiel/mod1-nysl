@@ -1,0 +1,163 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+  border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Here starts my CSS */
+
+.main-title {
+  margin:-70px 5px 0px 5px;
+  float:left;
+}
+.navigation {
+  margin:-30px 5px 0px 5px;
+  display: inline;
+  float: right;
+}
+.navigation a {
+  padding: 2px 6px;
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  background-color: blue;
+  border: 3px solid black;
+  box-shadow: 5px 2px 0px black;
+  margin: 20px;
+  text-decoration: none;
+}
+.navigation a:last-child {
+  margin-right: -10px;
+}
+a:hover {
+  background-color: green;
+}
+.header {
+  margin: 150px 5px 0px 5px;
+  background-image: url("../images/design2_image1.jpg");
+	background-position:  0px -50px;
+	background-size: cover;
+  width: 1290px;
+  height: 180px;
+}
+h1 {
+  font-family: sans-serif;
+  font-size: 65px;
+  letter-spacing: 5px;
+}
+.logo {
+  margin: 20px 40px 0px 10px;
+  width: 100px;
+  height: 100px;
+  bottom: -82px;
+}
+.container-title {
+  margin: 0px 5px 10px 5px;
+  padding: 10px 5px;
+  background-color: white;
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+
+h2 {
+	color: black;
+  text-align: center;
+	font-size: 30px;
+}
+section {
+	float:left;
+	width: 15%;
+}
+aside {
+	float:right;
+	width: 85%;
+}
+nav {
+	display:inline-block;
+	line-height: 10px;
+	padding: 20px;
+}
+.title-index {
+	margin-top: 40px;
+	font-style: italic;
+}
+.text-index {
+	text-indent: 30px;
+}
+.title-about {
+	margin-top: 20px;
+}
+h2, h3 {
+	font-weight: bold;
+	font-family: sans-serif;
+}
+h3 {
+	font-size: 25px;
+}
+.text-about {
+	word-spacing: 3px;
+	font-size: 18px;
+	margin-right: 40px;
+	margin-left: 30px;
+	padding-bottom: 30px;
+	line-height: 1.2;
+}
+.e-mail {
+	display: inline;
+	padding: 0px;
+	margin-left: 0;
+}
+.text-contact {
+	font-size: 18px;
+	margin-top: 30px;
+	line-height: 1.7;
+	text-indent: 30px;
+}
+.last-page-text {
+  text-indent: 50px;
+  margin-top: 20px;
+  line-height: 3;
+}
