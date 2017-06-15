@@ -51,7 +51,7 @@ table {
 
 .header {
   margin: 100px 5px 0px 5px;
-  background-image: url("Photos/design1_image1.jpg");
+  background-image: url("../images/design1_image1.jpg");
 	background-position:  0px -50px;
 	background-size: cover;
   width: 1290px;
