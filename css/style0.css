@@ -1,69 +1,60 @@
+/* Normalizer */
+
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
   border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
-/* Here starts my CSS */
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/* Here starts MY CSS */
+
+
+/* General CSS */
+
 body {
   margin-left: 0.45px;
+  font-family: sans-serif;
 }
-header {
-    width: 1265px;
-    height: 200px;
-    background-image: url(../images/background.jpg);
-    background-size: cover;
-    border: 10px solid black;
-}
-.logo {
-  float: left;
-  margin: 0px 40px 0px 58px;
-  width: 200px;
-  height: 200px;
-}
+
 h1 {
   text-align: center;
   margin-right: 640px;
@@ -73,133 +64,347 @@ h1 {
   font-weight: bold;
   text-shadow: 6px -6px 3px white;
 }
+
+.positioning-center {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+}
+
+#active {
+  color: white;
+  background-color: blue;
+}
+
+a:hover {
+  background-color: green;
+  color: orange;
+}
+
+aside {
+  float: left;
+  display: inline;
+}
+
+.aside-left {
+  margin: 40px 20px;
+  float: left;
+}
+
+h2, h3 {
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  font-size: 30px;
+}
+
+
+/* Header */
+
+header {
+  width: 1280px;
+  height: 200px;
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+  border: 10px solid black;
+}
+
+.logo {
+  float: left;
+  margin: 0px 40px 0px 58px;
+  width: 200px;
+  height: 200px;
+}
+
 .title-position-1 {
   position: relative;
   left: 50px;
 }
+
 .title-position-2 {
   position: relative;
   left: 100px;
 }
+
 .title-position-3 {
   position: relative;
   left: 150px;
 }
 
-.section1 {
-  width: 1260px;
-  height: 30px;
-  text-align: center;
-}
 .navigation a {
-  color: black;
+  font-family: serif;
   font-size: 22px;
+  font-weight: bold;
+  color: black;
   padding: 10px 20px;
-  margin: 0px 20px;
+  margin: 10px 20px;
   display: inline-block;
-  border: 6px solid darkgrey;
-  box-shadow: 8px 8px 5px grey;
+  border: 4px solid black;
+  box-shadow: 8px 6px 5px grey;
   border-radius: 100%;
   text-decoration: none;
   background-color: yellow;
 }
-#active {
-    color: white;
-    background-color: blue;
-}
+
 a:hover {
   background-color: green;
-  color: orange;
+  color: red;
 }
-aside {
-	float: left;
-  display: inline;
-}
-.aside.left {
-  margin: 40px 20px;
-  float: left;
-}
+
+
+/* Index*/
+
 .left-decor-photo {
-  margin: 90px 20px 20px 20px;
+  margin-top: 40px;
   width: 400px;
 }
-.middle-decor-photo {
-	margin-left: 430px;
-  width: 400px;
-}
+
 .right-decor-photo {
-  margin: 70px 30px 20px 40px;
-	width: 300px;
-	border-radius: 100%
+  margin: 60px 0px 20px 0px;
+  width: 300px;
+  border-radius: 100%
 }
+
 .title-index {
-	font-size: 18px;
-	margin-top: 40px;
-	font-style: italic;
+  font-size: 18px;
+  margin-top: 40px;
+  font-style: italic;
 }
+
 .title-index:first-child {
-		padding-top: 55px;
+  padding-top: 35px;
 }
+
 .text-index {
-	display: inline;
-	text-indent: 30px;
+  margin-left: 20px;
+  display: inline;
+  text-indent: 30px;
 }
+
 .text-index, .title-index {
-		font-size: 18px;
-		padding-left: 20px;
+  font-size: 18px;
+  padding-left: 20px;
 }
-h2, h3 {
-	font-weight: bold;
-	font-family: sans-serif;
+
+.index-container {
+  width: 100%;
+  height: 300px;
 }
-h3 {
-	font-size: 25px;
-}
+
+
+/* About */
+
 .title-about {
-	margin: 10px 200px 0px 25px;
+  margin: 10px 200px 0px 25px;
   text-align: left;
 }
+
 .text-about {
   text-align: left;
-	font-size: 18px;
-	margin: 0px 10px 0px 50px;
+  font-size: 18px;
+  margin: 0px 10px 0px 50px;
 }
-.e-mail {
-	display: inline;
-	padding: 0px;
-	margin-left: 0px;
-}
-.text-contact {
-	font-size: 18px;
-	margin-top: 30px;
-	line-height: 1.7;
-	text-indent: 30px;
-}
-.last-page-text, .last-page-text2 {
-	font-size: 20px;
-	margin-left: 380px;
-  text-indent: 50px;
-  line-height: 2;
-}
-.last-page-text {
-	padding-top: 30px;
-}
-h2 {
-	color: black;
-  text-align: center;
-	font-size: 30px;
-}
-footer {
+
+.bottom-image {
   margin-top: 240px;
   width: 1275px;
-  height: 100px;
+  height: 180px;
   background-color: blue;
   background-image: url(../images/ball.jpg);
   background-size: cover;
   border: 5px solid black;
   background-position: 0px -930px;
 }
-.index-container {
-	width: 1280px;
-	height: 300px;
+
+
+/* Rules */
+
+.hyperlink-to-top {
+  position: fixed;
+  margin: 60px 0px 0px 1140px;
+  padding: 20px;
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  background-image: url(../images/ball2.png);
+  background-size: cover;
+  border-radius: 100%;
+  text-align: center;
+  color: blue;
+  background-position: 1px -6px;
+}
+
+.hyperlink-to-top a {
+  text-transform: uppercase;
+  color: yellow;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.hyperlink-to-top a:hover {
+  border-radius: 100%;
+  color: white;
+  background-color: black;
+}
+
+.page-title {
+  text-align: center;
+}
+
+.page-main-title {
+  padding-top: 60px;
+}
+
+.page-semititle {
+  padding: 20px;
+  font-weight: bold;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.rules-subtitle {
+  font-size: 18px;
+  margin: 20px;
+}
+
+.bold-uppercase-titles {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+ul, ol {
+  text-align: left;
+}
+
+.list-main-title {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-left: 100px;
+  font-weight: bold;
+}
+
+.list-text, .second-list-text {
+  padding-bottom: 20px;
+  list-style: square;
+}
+
+.nested-list-main-title {
+  font-weight: bold;
+  margin: 0px 250px 0px 150px;
+  list-style: decimal;
+  margin-top: 10px;
+}
+
+.nested-list-main-title:first-child {
+  margin-top: 0px;
+}
+
+.nested-list-in-nested-list-main-title, .list-text {
+  margin: 0px 250px 0px 150px;
+}
+
+.nested-list-in-nested-list-main-title {
+  margin-bottom: 0px;
+  padding-left: 40px;
+  list-style: lower-alpha;
+}
+
+.second-list-text {
+  padding-left: 40px;
+}
+
+.title-bold-uppercase {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.second_nested_list_text {
+  list-style: decimal;
+  margin-left: 30px;
+}
+
+.another-nested-list-text {
+  list-style: circle;
+  margin-left: 40px;
+}
+
+span {
+  font-weight: lighter;
+  text-transform: none;
+}
+
+
+/* Information */
+
+.subtitle {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  padding: 40px 20px 20px 220px;
+}
+
+.second-subtitle {
+  text-decoration: underline;
+  text-align: left;
+  padding: 0px 20px 10px 220px;
+}
+
+.first-table {
+  text-align: center;
+  margin: 10px 0px 20px 0px;
+  margin-left: 130px;
+  width: 80%;
+}
+
+.table-title {
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.table-title:first-child {
+  text-transform: uppercase;
+}
+
+.first-cell {
+  width: 25%;
+}
+
+.second-cell, .third-cell, .fourth-cell {
+  width: 20%;
+}
+
+
+/* Contact */
+
+.middle-decor-photo {
+  margin-left: 430px;
+  width: 400px;
+}
+
+.e-mail {
+  display: inline;
+  padding: 0px;
+  margin-left: 0px;
+}
+
+.last-page-text, .last-page-text2 {
+  font-size: 20px;
+  margin-left: 400px;
+  text-indent: 50px;
+  line-height: 2;
+}
+
+.last-page-text {
+  text-align: center;
+  margin-top: 40px;
 }
