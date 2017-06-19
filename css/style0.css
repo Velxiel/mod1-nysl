@@ -359,13 +359,14 @@ span {
 
 .first-table {
   text-align: center;
-  margin: 10px 0px 20px 0px;
-  margin-left: 130px;
+  margin: 10px 0px 30px 0px;
+  margin-left: 190px;
   width: 80%;
 }
 
 .table-title {
   margin-top: 40px;
+  padding-bottom: 10px;
   font-size: 20px;
   font-weight: bold;
   text-decoration: underline;
@@ -381,6 +382,54 @@ span {
 
 .second-cell, .third-cell, .fourth-cell {
   width: 20%;
+}
+
+.table-text-left {
+  padding-right: 110px;
+  text-align: left;
+}
+
+.table-text-left:first-child {
+  padding-top: 10px;
+}
+
+.table-text-positioning {
+  margin-right: 110px;
+}
+
+.second-table-title {
+  padding-left: 30px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.second-table-text {
+  padding-left: 30px;
+  text-align: left;
+}
+
+.second-table-text td {
+  padding-left: 90px;
+}
+
+.second-table-text-left {
+  padding-right: 750px;
+}
+
+.second-table {
+  width: 100%;
+  text-align: left;
+  margin: 20px 0px;
+  margin-left: 220px;
+}
+
+.table-header-title {
+  font-weight: bold;
+}
+
+tfoot {
+  width: 30%;
+  float: left;
 }
 
 
