@@ -207,6 +207,10 @@ a:hover {
   text-align: left;
 }
 
+.title-about:first-child {
+  padding-top: 30px;
+}
+
 .text-about {
   text-align: left;
   font-size: 18px;
@@ -214,7 +218,7 @@ a:hover {
 }
 
 .bottom-image {
-  margin-top: 240px;
+  margin-top: 280px;
   width: 1275px;
   height: 180px;
   background-color: blue;
@@ -430,6 +434,121 @@ span {
 tfoot {
   width: 30%;
   float: left;
+}
+
+
+/* Registration */
+
+.main-body {
+  width: 80%;
+}
+
+.form-position {
+  margin: 70px 0px 30px 200px;
+}
+
+form {
+  border: 2px dashed grey;
+  border-radius: 10px;
+  font: 16px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  width: 70%;
+  padding-bottom: 20px;
+}
+
+.form-title {
+  text-indent: 80px;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: serif;
+  font-style: italic;
+}
+
+label {
+  margin-left: 20px;
+  width: 50%;
+}
+
+.label-next-to {
+  display: inline;
+}
+
+fieldset {
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+input {
+  border-color: transparent;
+  border-bottom: 2px solid black;
+  width: 30%;
+  margin-bottom: 10px;
+}
+
+.whole-input {
+  width: 82.5%;
+}
+
+.birthday {
+  width: 140px;
+}
+
+.input-margin {
+  margin: 0px 0px 0px 20px;
+  width: 4%;
+}
+
+.second-fieldset {
+  width: 100%;
+  font-weight: bold;
+}
+
+.third-fieldset, .forth-fieldset {
+  font-size: 14px;
+  float: left;
+  padding-right: 20px;
+}
+
+.forth-fieldset {
+  display: inline;
+}
+
+.form-title-short {
+  display: block;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.input-width {
+  width: 40px;
+}
+
+.first-half-fieldset {
+  margin-left: 10px;
+  float: left;
+}
+
+.second-half-fieldset {
+  margin-left: 20px;
+  display: inline;
+  float: left;
+}
+
+.smaller-margin {
+  margin-bottom: 0px;
+}
+
+.mini-title-extra {
+  text-decoration: underline;
+  display: block;
+  font-size: 12px;
+  margin-top: 30px;
+}
+
+.mini-text {
+  font-size: 12px;
+  margin-bottom: 20px;
 }
 
 
