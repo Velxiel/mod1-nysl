@@ -436,11 +436,52 @@ tfoot {
   float: left;
 }
 
+.map-content {
+  margin-top: 50px;
+  display: inline-block;
+  width: 800px;
+  height: 100px;
+}
+
+#small-map {
+  display: inline-block;
+  border: 5px solid green;
+  padding: 10px;
+  margin-left: 140px;
+  width: 100px;
+  height: 100px;
+}
+
+.map-text {
+  text-decoration: underline;
+  font-style: italic;
+  padding-left: 70px;
+  text-align: left;
+  padding-right: 275px;
+  width: 200px;
+}
+
 
 /* Registration */
 
 .main-body {
   width: 80%;
+}
+
+select {
+  margin: 50px;
+  border: 1px solid #111;
+  background: transparent;
+  width: 150px;
+  padding: 5px 35px 5px 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  height: 30px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(../images/old_go_bottom.png) 94% / 14% no-repeat #eee;
 }
 
 .form-position {
@@ -495,7 +536,7 @@ input {
 }
 
 .input-margin {
-  margin: 0px 0px 0px 20px;
+  margin: 0px;
   width: 4%;
 }
 
@@ -535,6 +576,14 @@ input {
   float: left;
 }
 
+.select-list {
+  margin: 0px 40px;
+}
+
+.width-grade {
+  width: 0px;
+}
+
 .smaller-margin {
   margin-bottom: 0px;
 }
@@ -549,6 +598,51 @@ input {
 .mini-text {
   font-size: 12px;
   margin-bottom: 20px;
+}
+
+.submit-button {
+  display: block;
+  text-align: right;
+  margin: -90px 200px 10px 0px;
+}
+
+sup {
+  font-size: 12px;
+  vertical-align: super;
+}
+
+input[type=submit] {
+  width: 150px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+  background-color: orange;
+  color: green;
+  border: 2px;
+  box-shadow: 2px -4px 6px lime;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+[placeholder] {
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  color: grey;
+  font-style: italic;
+}
+
+input[placeholder]:focus {
+  color: green;
+}
+
+input[placeholder] {
+  color: black;
+}
+
+.textarea-box {
+  margin-left: 80px;
 }
 
 

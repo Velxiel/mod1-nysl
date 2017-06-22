@@ -25,60 +25,60 @@
       <a href="contactnysl0.html">Contact</a>
     </nav>
   </div>
-  <form action="/registration" method="post" class="form-position">
+  <form action="show_data.html" method="get" class="form-position">
     <fieldset>
       <legend class="form-title">Registration Form</legend>
       <label>
       Player’s First Name:
-    <input type="text" name="username">
+    <input type="text" name="First-Name" placeholder="Your First Name" required>
   </label>
       <label class="label-next-to">
   Player’s Last Name:
-<input type="text" name="username">
+<input type="text" name="Last-Name" placeholder="Your Last Name" required>
 </label>
       </label>
       <label>
 Street Address:
-<input class="whole-input" type="text" name="username">
+<input class="whole-input" type="text" name="Address" placeholder="Your Address" required>
 </label>
       <label>
 City:
-<input type="text" name="username">
+<input type="text" name="City" placeholder="Your City" required>
 </label>
       <label class="label-next-to">
 ZIP Code:
-<input type="text" name="username">
+<input type="text" name="ZIP-Code" placeholder="Your area's ZIP Code" required>
 </label><br>
       <label>
   Birth Day (mm.dd.yyyy):
-<input type="date" class="birthday">
+<input type="date" name="Birth-Date" class="birthday" required>
 </label>
       </label>
       <label class="label-next-to">
 Gender:
-<input type="checkbox" name="gender" class="input-margin"> Female
-<input type="checkbox" name="gender" class="input-margin"> Male
-</label><br>
+  <input type="radio" name="Gender" value="Female" class="input-margin" required> <label>Female</label>
+      <input type="radio" name="Gender" value="Male" class="input-margin" required> <label>Male</label>
+      </label><br>
       <label>
-Grade:
-<input type="checkbox" name="gender" class="input-margin"> Pre-School
-<input type="checkbox" name="gender" class="input-margin"> 1 <sup>st</sup>
-<input type="checkbox" name="gender" class="input-margin"> 2 <sup>nd</sup>
-<input type="checkbox" name="gender" class="input-margin"> 3 <sup>rd</sup>
-<input type="checkbox" name="gender" class="input-margin"> 4 <sup>th</sup>
-<input type="checkbox" name="gender" class="input-margin"> 5 <sup>th</sup>
+Grade:<input type="text" class="width-grade">
+<input type="radio" name="Grade" value="Pre-School" class="input-margin"> Pre-School
+<input type="radio" name="Grade" value="1st" class="input-margin"> 1 <sup>st</sup>
+<input type="radio" name="Grade" value="2nd" class="input-margin"> 2 <sup>nd</sup>
+<input type="radio" name="Grade" value="3rd" class="input-margin"> 3 <sup>rd</sup>
+<input type="radio" name="Grade" value="4th" class="input-margin"> 4 <sup>th</sup>
+<input type="radio" name="Grade" value="5th" class="input-margin"> 5 <sup>th</sup>
 </label><br>
       <label>
 Parent/Guardian:
-<input class="whole-input" type="text" name="username">
+<input class="whole-input" type="text" name="Parent-Guardian" placeholder="Parent's/Guardian's Name & Surname" required>
 </label>
       <label>
 Contact Phone:
-<input type="text" name="username">
+<input type="tel" name="Phone-Number" placeholder="A reachable tel. Number (if any)">
 </label>
       <label class="label-next-to">
 Contact E-mail:
-<input type="text" name="username">
+<input type="email" name="E-Mail" placeholder="A reachable E-Mail Address (if any)">
 </label>
     </fieldset>
     <fieldset class="second-fieldset">
@@ -88,31 +88,27 @@ Contact E-mail:
       <fieldset class="third-fieldset">
         <div class="form-title-short">
           <label class="mini-title">First closest School:</label>
-        </div>
-        <div class="first-half-fieldset">
-          <input type="checkbox" name="school" class="input-width"><span>AJ Katzenmaier</span><br>
-          <input type="checkbox" name="school" class="input-width"><span>Greenbay</span><br>
-          <input type="checkbox" name="school" class="input-width"><span>Howard A Yeager</span>
-        </div>
-        <div class="second-half-fieldset">
-          <input type="checkbox" name="school" class="input-width"><span>Marjorie P Hart</span><br>
-          <input type="checkbox" name="school" class="input-width"><span>North Elementary</span><br>
-          <input type="checkbox" name="school" class="input-width"><span>South Elementary</span><br>
+          <select class="select-list" name="First-Closest-School">
+            <option value="AJ Katzenmaier"><span>AJ Katzenmaier</span></option>
+            <option value="Greenbay"><span>Greenbay</span></option>
+            <option value="Howard A Yeager"><span>Howard A Yeager</span></option>
+            <option value="Marjorrie"><span>Marjorie P Hart</span></option>
+            <option value="North Elementary"><span>North Elementary</span></option>
+            <option value="South Elementary"><span>South Elementary</span></option>
+          </select>
         </div>
       </fieldset>
       <fieldset class="forth-fieldset">
         <div class="form-title-short">
           <label class="mini-title">Second closest School:</label>
-        </div>
-        <div class="first-half-fieldset">
-          <input type="checkbox" name="school" class="input-width"><span>AJ Katzenmaier</span><br>
-          <input type="checkbox" name="school" class="input-width"><span>Greenbay</span><br>
-          <input type="checkbox" name="school" class="input-width"><span>Howard A Yeager</span>
-        </div>
-        <div class="second-half-fieldset">
-          <input type="checkbox" name="school" class="input-width"><span>Marjorie P Hart</span><br>
-          <input type="checkbox" name="school" class="input-width"><span>North Elementary</span><br>
-          <input type="checkbox" name="school" class="input-width"><span>South Elementary</span><br>
+          <select class="select-list" name="First-Closest-School">
+            <option value="AJ Katzenmaier"><span>AJ Katzenmaier</span></option>
+            <option value="Greenbay"><span>Greenbay</span></option>
+            <option value="Howard A Yeager"><span>Howard A Yeager</span></option>
+            <option value="Marjorrie"><span>Marjorie P Hart</span></option>
+            <option value="North Elementary"><span>North Elementary</span></option>
+            <option value="South Elementary"><span>South Elementary</span></option>
+          </select>
         </div>
       </fieldset>
     </fieldset>
@@ -121,12 +117,12 @@ Contact E-mail:
         <label>What position(s) do you normally play? <span>(check all that apply)</span></label>
       </div>
       <div class="first-half-fieldset">
-        <input type="checkbox" name="school" class="input-width"><span>Forward</span><br>
-        <input type="checkbox" name="school" class="input-width"><span>Defence</span><br>
+        <input type="checkbox" class="input-width"><span>Forward</span><br>
+        <input type="checkbox" class="input-width"><span>Defence</span><br>
       </div>
       <div class="second-half-fieldset">
-        <input type="checkbox" name="school" class="input-width"><span>Midfield</span><br>
-        <input type="checkbox" name="school" class="input-width"><span>Goalkeeper</span><br>
+        <input type="checkbox" class="input-width"><span>Midfield</span><br>
+        <input type="checkbox" class="input-width"><span>Goalkeeper</span><br>
       </div>
     </fieldset>
     <fieldset class="second-fieldset">
@@ -134,48 +130,48 @@ Contact E-mail:
         <label>What position(s) do you want to play? <span>(check all that apply)</span></label>
       </div>
       <div class="first-half-fieldset">
-        <input type="checkbox" name="school" class="input-width"><span>Forward</span><br>
-        <input type="checkbox" name="school" class="input-width"><span>Defence</span><br>
+        <input type="checkbox" class="input-width"><span>Forward</span><br>
+        <input type="checkbox" class="input-width"><span>Defence</span><br>
       </div>
       <div class="second-half-fieldset">
-        <input type="checkbox" name="school" class="input-width"><span>Midfield</span><br>
-        <input type="checkbox" name="school" class="input-width"><span>Goalkeeper</span><br>
+        <input type="checkbox" class="input-width"><span>Midfield</span><br>
+        <input type="checkbox" class="input-width"><span>Goalkeeper</span><br>
       </div>
     </fieldset>
     <fieldset class="second-fieldset">
       <div class="form-title-short">
-        <input type="checkbox" name="school" class="input-width smaller-margin">Already have a uniform?</input>
+        <input type="checkbox" class="input-width smaller-margin">Already have a uniform?</input>
       </div>
       <fieldset class="third-fieldset smaller-margin">
         <div class="form-title-short">
-          <label class="mini-title">Jersey Size:</label>
+          <label class="mini-title">Jersey-Size:</label>
         </div>
         <div class="first-half-fieldset smaller-margin">
-          <input type="checkbox" name="school" class="input-width"><span>Youth Small</span><br>
-          <input type="checkbox" name="school" class="input-width"><span>Youth Medium</span><br>
-          <input type="checkbox" name="school" class="input-width"><span>Youth Large</span><br>
-          <input type="checkbox" name="school" class="input-width"><span>Small</span>
+          <input type="radio" name="Jersey Size" value="Youth Small" class="input-width"><span>Youth Small</span><br>
+          <input type="radio" name="Jersey Size" value="Youth Medium" class="input-width"><span>Youth Medium</span><br>
+          <input type="radio" name="Jersey Size" value="Youth Large" class="input-width"><span>Youth Large</span><br>
+          <input type="radio" name="Jersey Size" value="Small" class="input-width"><span>Small</span>
         </div>
         <div class="second-half-fieldset smaller-margin">
-          <input type="checkbox" name="school" class="input-width"><span>Medium</span><br>
-          <input type="checkbox" name="school" class="input-width"><span>Large</span><br>
-          <input type="checkbox" name="school" class="input-width"><span>Extra-Large</span><br>
+          <input type="radio" name="Jersey Size" value="Medium" class="input-width"><span>Medium</span><br>
+          <input type="radio" name="Jersey Size" value="Large" class="input-width"><span>Large</span><br>
+          <input type="radio" name="Jersey Size" value="Extra Large" class="input-width"><span>Extra-Large</span><br>
         </div>
       </fieldset>
       <fieldset class="forth-fieldset smaller-margin">
         <div class="form-title-short">
-          <label class="mini-title">Shorts Size:</label>
+          <label class="mini-title">Shorts-Size:</label>
         </div>
         <div class="first-half-fieldset smaller-margin">
-          <input type="checkbox" name="school" class="input-width"><span>Youth Small</span><br>
-          <input type="checkbox" name="school" class="input-width"><span>Youth Medium</span><br>
-          <input type="checkbox" name="school" class="input-width"><span>Youth Large</span><br>
-          <input type="checkbox" name="school" class="input-width"><span>Small</span>
+          <input type="radio" name="Jersey Size" value="Youth Small" class="input-width"><span>Youth Small</span><br>
+          <input type="radio" name="Jersey Size" value="Youth Medium" class="input-width"><span>Youth Medium</span><br>
+          <input type="radio" name="Jersey Size" value="Youth Large" class="input-width"><span>Youth Large</span><br>
+          <input type="radio" name="Jersey Size" value="Small" class="input-width"><span>Small</span>
         </div>
         <div class="second-half-fieldset smaller-margin">
-          <input type="checkbox" name="school" class="input-width"><span>Medium</span><br>
-          <input type="checkbox" name="school" class="input-width"><span>Large</span><br>
-          <input type="checkbox" name="school" class="input-width"><span>Extra-Large</span><br>
+          <input type="radio" name="Jersey Size" value="Medium" class="input-width"><span>Medium</span><br>
+          <input type="radio" name="Jersey Size" value="Large" class="input-width"><span>Large</span><br>
+          <input type="radio" name="Jersey Size" value="Extra Large" class="input-width"><span>Extra-Large</span><br>
         </div>
       </fieldset>
       <fieldset class="second-fieldset">
@@ -191,21 +187,25 @@ on behalf of the registrant as a result of the registrant’s participation in t
 sponsored activities, which transportation.</label>
         </div>
         <div class="mini-text">
-          <label>By signing below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the
-cancellation policy and agree to its terms. </label>
+          <p>By entering your name below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the cancellation policy and agree to its terms. </p>
         </div>
-      </fieldset>
-      <label>
+        <fieldset class="smaller-margin">
+          <label>
 Parent/Guardian Signature:
-<input type="text" name="username">
+<div class="form-title-short">
+<p><textarea name="Signature" cols="30" rows="5" class="textarea-box" required>
+</textarea><br/></p>
+</div>
 </label>
-      <label class="label-next-to">
+          <label class="label-next-to today">
 Date:
-<input type="text" name="username">
+<input type="date" name="Today" class="today" required>
 </label>
-    </fieldset>
-
+        </fieldset>
   </form>
+  <div class="submit-button">
+    <input type="submit" value="Submit">
+  </div>
 </body>
 
 </html>
